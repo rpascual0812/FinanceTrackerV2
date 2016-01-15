@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Finance Expense Tracker</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- MENU -->
+    <string name="menu_spending">SPENDING</string>
+    <string name="menu_transactions">TRANSACTIONS</string>
+    <string name="menu_categories">CATEGORIES</string>
+    <string name="menu_accounts">ACCOUNTS</string>
+    <string name="menu_reports">REPORTS</string>
+    <!-- END of MENU -->
+
+    <string name="txt_btn_income"><u>ADD INCOME</u></string>
+    <string name="txt_btn_expense"><u>ADD EXPENSE</u></string>
+    <string name="page_title"></string>
+    <string name="txt_back">BACK</string>
+
+    <string name="line">Line</string>
+    <string name="bar">Bar</string>
+    <string name="pie">Pie</string>
+
+    <string name="open">open</string>
+    <string name="close">close</string>
+</resources>
