@@ -1,4 +1,4 @@
-package my.test.myapplication;
+package trofunlait.projects.financetrackerv2;
 
 import android.content.Context;
 import android.graphics.Typeface;

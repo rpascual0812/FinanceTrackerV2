@@ -10,8 +10,8 @@
     <string name="menu_reports">REPORTS</string>
     <!-- END of MENU -->
 
-    <string name="txt_btn_income"><u>ADD INCOME</u></string>
-    <string name="txt_btn_expense"><u>ADD EXPENSE</u></string>
+    <string name="txt_btn_income"><u><b>ADD INCOME</b></u></string>
+    <string name="txt_btn_expense"><u><b>ADD EXPENSE</b></u></string>
     <string name="page_title"></string>
     <string name="txt_back">BACK</string>
 

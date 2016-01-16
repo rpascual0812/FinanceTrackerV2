@@ -1,4 +1,4 @@
-package my.test.myapplication;
+package trofunlait.projects.financetrackerv2;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -10,7 +10,11 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
+/**
+ * Created by kith on 1/15/16.
+ */
 public class MainActivity extends AppCompatActivity {
+    Context context;
 
     TabLayout tabLayout;
     ViewPager viewPager;
@@ -52,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
     private class CustomAdapter extends FragmentPagerAdapter {
 
         private String fragments [] = {"Spending","Transactions", "Categories", "Reports", "Settings"};
-        
+
         public CustomAdapter(FragmentManager supportFragmentManager, Context applicationContext) {
             super(supportFragmentManager);
         }
@@ -61,15 +65,15 @@ public class MainActivity extends AppCompatActivity {
         public Fragment getItem(int position) {
             switch (position){
                 case 0:
-                    return new Fragment1();
+                    return new Spending();
                 case 1:
-                    return new Fragment2();
+                    return new Transactions();
                 case 2:
-                    return new Fragment2();
+                    return new Categories();
                 case 3:
-                    return new Fragment2();
+                    return new Reports();
                 case 4:
-                    return new Fragment2();
+                    return new Settings();
                 default:
                     return null;
             }
